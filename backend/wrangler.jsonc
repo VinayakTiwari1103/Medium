@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-24",
+  "vars": {
+    "DATABASE_URL": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNWUwNDYzZTUtNzk2Mi00MDI4LWE1M2QtMzEwZDBkYTI5MzRjIiwidGVuYW50X2lkIjoiMzQ2YjgwNjAzMDUwYTc0ODI5OTI1Nzc2ZjMxZWIzYTkyNjc0ZjU5M2ZiNDg4NTkxYWVhNWExNzYwYWU0NmY0ZCIsImludGVybmFsX3NlY3JldCI6ImUwNjYyYmE3LWQzNGUtNDlkZi1iYjBhLTg4MTNmN2QwZTNlYiJ9.t1V1MUtZT3tYTEK3yah8Dj8R5UwducCS1oN9M-z-i9o"
+  }
+}
