@@ -3,7 +3,8 @@ import { withAccelerate } from '@prisma/extension-accelerate'
 import { verify } from 'crypto';
 import { Hono } from 'hono';
 import { sign } from 'hono/jwt'
-
+import { userRouter } from './user';
+import { bookRouter } from './blog';
 // Create the main Hono app
 const app = new Hono<{
 	Bindings: {
@@ -12,7 +13,7 @@ const app = new Hono<{
 	}
 }>();
 app.route("/api/v1/user", userRouter);
-app.route("/api/v1/blog", blogRouter);
+app.route("/api/v1/blog", bookRouter);
 
 export default app;
 
