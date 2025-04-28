@@ -3,6 +3,7 @@ import { withAccelerate } from "@prisma/extension-accelerate";
 import { Hono } from "hono";
 import { sign } from "hono/jwt";
 
+
 export const userRouter = new Hono<{
     Bindings: {
         DATABASE_URL: string;
