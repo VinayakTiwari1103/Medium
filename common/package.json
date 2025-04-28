@@ -1,5 +1,5 @@
 {
-    "name": "@100xdevs/common-app",
+    "name": "@vinayak11/medium-common",
     "version": "1.0.3",
     "main": "dist/index.js",
     "scripts": {
@@ -12,5 +12,8 @@
         "zod": "^3.22.4"
     },
     "devDependencies": {},
-    "description": ""
+    "description": "",
+    "publishConfig": {
+        "access": "public"
+    }
 }
